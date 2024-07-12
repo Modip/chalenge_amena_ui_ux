@@ -71,7 +71,7 @@ section{
 .box-content{
     display: flex;
     flex-direction: column;
-   font-size: 12px;
+    font-size: 12px;
     align-items: center;
 }
 .container .card .box-content button{
@@ -91,4 +91,33 @@ section{
 }
 
 .container .card .box-content p{
-    font-size: 10px;}
+    font-size: 10px;
+}
+
+
+@media (max-width:450px){
+  
+    .container{
+      
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .card{
+        margin: 12;
+       
+    }
+
+    .container .card .box-content button{
+        margin: 1px 0px;
+        padding: 5px 8px;
+        font-size: 10px;
+      
+      
+    }
+    
+
+    
+}
